@@ -7,8 +7,6 @@ services:
       dockerfile: Dockerfile
     ports:
       - 3002:3002
-    env_file:
-      - .env.local
     develop:
       watch:
         - path: ./packages.json
